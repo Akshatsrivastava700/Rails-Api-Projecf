@@ -1,0 +1,10 @@
+<h1>Display Table 1 </h1>
+
+
+<% @data.each do |itr| %>
+
+    <tr>
+        <td><%= itr.booking_id %></td>
+        <td><%= itr.hotel %></td>
+    </tr><br>
+<% end %>
